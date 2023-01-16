@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.title{
+    background:linear-gradient(rgb(248, 134, 134),white);
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    transition: 1s;
+  
+}
+.top-button{
+    text-align: center;
+    margin-top: 25px;
+}
+.top-button a{
+    margin: 10px 50px;
+    padding: 12px 20px;
+    border-radius:50px ;
+    background: rgb(169, 214, 214);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 1s;
+    
+}
+
+
+
+.para1{
+    margin-top: 25px;
+    margin-left: 5px;
+    background: linear-gradient(rgb(226, 231, 157),rgb(169, 205, 226));
+}
+.para2{
+    margin-left: 5px;
+    background: linear-gradient(rgb(218, 194, 218),rgb(225, 228, 236));
+}
+.image{
+    height: 20%;
+    width: 30%;
+
+    margin-top: 0.5px;
+    float: right;
+    
+}
+.head2{
+    color: rgb(12, 0, 87);
+    background: rgb(240, 228, 213);
+}
+.head1{
+    color: rgb(5, 27, 27);
+    background: rgb(219, 209, 191);
+}
+.img2{
+float: left;
+height: 30%;
+width: 35%;
+}
+.head3{
+    background: rgb(206, 241, 206);
+}
+.sum1{
+    background: rgb(206, 241, 206);;
+}
+.goa{
+    display: flex;
+}
+.manali{
+    float: right;
+}
+.book{
+    background: rgb(219, 192, 189);
+}
+.pen{
+    background:rgb(219, 192, 189); 
+}
+.jaipur{
+    height: 20%;
+width: 35%;
+float: left;
+
+}
+.jaipur1{
+    background: rgb(183, 209, 208);
+}
+.visit{
+    background: rgb(183, 209, 208);
+
+}
+.some{
+    text-align: center;
+}
+.image-grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.image-grid > img{
+    background-size: 50%;
+    margin: 10px;
+
+
+}
+img{
+    width: 400px;
+    height: 200px;
+    transition: 0.5s; height,width;
+}
+img:hover{
+    height: 250px;
+    width: 500px;
+}
+#feedback{
+    color:black ;
+    background: burlywood;
+    font-size: 1.5em;
+}
+.submit{
+    background: rgb(166, 166, 212);
+}
+
+
+
+
+
+
